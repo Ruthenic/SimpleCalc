@@ -45,7 +45,7 @@ namespace SimpleCalc
             //wait until key pressed and shutdown program
             Console.WriteLine("");
             Console.WriteLine("Press any key to shutdown the program");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
